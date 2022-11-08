@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .if {
+            background-color: palevioletred;
+            padding: 20px;
+            width: 100px;
+            margin: 10px;
+            color: white;
+        }
+        .si {
+            background-color:palevioletred;
+            padding: 20px;
+            width: 100px;
+            margin: 10px;
+            color: white;
+        }
+        .d3 {
+            background-color: lightblue;
+            padding: 20px;
+            width: 250px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="color: red; text-align:center;">Mengenal Class dan Id pada HTML</h3>
+    <h3 style="color: red; text-align:center;">STMIK Horizon</h3>
+
+    <div class="if">
+         <p>Informatika(S1)</p>
+    </div>
+    <br>
+    <div class="si">
+         <p>Sistem informasi (S1)</p>
+    </div>
+    <br>
+    <div class="d3">
+        <p>Sistem informasi (D3)</p>
+    </div>
+</body>
+</html>
