@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myHeader {
+            background-color: green;
+            color: red;
+            padding: 40px;
+            text-align: center;
+        }
+        .city {
+            background-color: rgb(58, 9, 233);
+            color: white;
+            border: 2px solid bisque;
+            margin: 20px;
+            padding: 20px;
+        }
+        .kota {
+            background-color: rgb(31, 192, 138);
+            color: white;
+            border: 4px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <H2>Perbedaan Class dan ID</H2>
+    <p>Sebuah nama class dapat dipergunakan oleh banyak element HTML, sedangkan nama id harus
+        digunakan oleh | satu element HTML di satu halaman</p>
+
+        <!-- An element with a unique id -->
+        <h1 id="myHeader">ibukota</h1>
+
+        <div class="city">
+            <h2>Jakarta</h2>
+            <p>Jakarta adalah ibu kota Indonesia</p>
+        </div>
+        <div class="kota">
+             <h2>Manila</h2>
+             <p>Manila adalah ibu kota Filipina</p>
+        </div>
+        <div class="city">
+            <h2>Tokyo</h2>
+            <p>Tokyo adalah ibu kota Tokyo</p>
+       </div>
+       <script>
+       let myHeader = document.querySelector('#myHeader');
+       myHeader.style.color ='blue'
+       myHeader.style.backgroundColor = 'yellow'
+       myHeader.style.padding = '10px'
+       myHeader.style.textAlign = 'left'
+    </script>
+</body>
+</html>
