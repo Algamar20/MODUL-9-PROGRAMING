@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color:black; color: white; padding: 20px;">
+          <h2>tag div</h2>
+    <p>tag ini digunakan untuk mengolompokan bagian header, content, sidebar, footer,
+        dan lainnya secara terpisah namun dalam satu tampilan tertentu</p>
+    <!-- secound group of tag -->
+    <div style="background-color: maroon; color:white;">
+           <h4>ini adalah group ke dua</h4>
+           <p>daftar sayuran :</p>
+           <ol>
+            <li>kentang</li>
+            <li>kol</li>
+            <li>bayam</li>
+            <li>kangkung</li>
+           </ol>
+    </div>
+    </div>
+    <!-- third group of tags -->
+    <div style="background-color:black; color: white; padding: 20px;">
+    <div style="background-color: maroon; color:white;">
+         <h4>ini grup ke empat</h4>
+         <p>daftar buah-buahan</p>
+         <ul>
+            <li>apel</li>
+            <li>pisang</li>
+            <li>mangga</li>
+            <li>storbary</li>
+         </ul>
+    </div>
+    </div>
+</body>
+</html>
