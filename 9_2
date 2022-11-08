@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>inline elemen</h3>
+    <p>text di dalam paragraf, <span style="color:rgb(11, 230, 84); font-weight: bold;">taxt didalam span</span></p>
+
+    <hr>
+    <h3>contoh 2</h3>
+    <p>aku belajar HTML = <span style="color:rgb(29, 16, 221); font-weight: bold;">I Study HTML</span></p>
+    <p>aku berkerja dengan keras = <span style="color:rgb(247, 10, 100); font-weight: bold;">I work very hard</span></p>
+</body>
+</html>
